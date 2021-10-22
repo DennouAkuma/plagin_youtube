@@ -1,0 +1,24 @@
+{
+    "manifest_version": 2,
+    "id": "CODE_2501",
+	"name": "SNS Entelligencey",
+	"version": "0.0.1",
+    "author": "DennouAkuma",
+
+    "description": "Collect and disclose YouTube information",
+
+    "permissions": ["tabs","storage"],
+
+    "background": {
+        "scripts": [
+            "./background/jquery-3.6.0.min.js",
+            "./background/background.js"
+        ],
+        "persistent": false
+    },
+    
+    "options_ui": {
+        "page": "./option/option.html",
+        "chrome_style": true    
+    }  
+}
